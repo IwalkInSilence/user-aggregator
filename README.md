@@ -15,7 +15,7 @@ This Spring Boot application provides a service for aggregating user data from m
 ## Prerequisites
 - Java 21 or later
 - Docker (for Docker Compose setup)
-- Maven (for building the project)
+- Gradle (for building the project)
 
 ## Getting Started
 Clone this repository to your local machine:
@@ -80,9 +80,9 @@ http://localhost:8080/swagger-ui.html
 
 ## Running the Application
 
-### Locally with Maven:
+### Locally with Gradle:
 ```bash
-mvn spring-boot:run
+./gradlew springBoot
 ```
 
 ### Docker Compose
